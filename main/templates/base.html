@@ -14,14 +14,6 @@
         {% include 'partials/_topbar.html' %}
     </header>
 
-    <section id="hero" class="d-flex justify-content-center align-items-center">
-        <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
-            <h1>Your One-Stop Portal<br>for all PUPQC e-Services</h1>
-            <h2>Access all services in one click</h2>
-            <a href="{% url 'service' %}" class="btn-get-started">Go to services</a>
-        </div>
-    </section>
-
     <main id="main">
         {% block iskonect  %}{% endblock  %}
     </main>
