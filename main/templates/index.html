@@ -1,0 +1,431 @@
+ {% load static %}
+
+    <link href="{% static 'img/favicon.png' %}" rel="icon">
+    <link href="{% static 'img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link href="{% static 'vendor/animate.css/animate.min.css' %}" rel="stylesheet">
+    <link href="{% static 'vendor/aos/aos.css' %}" rel="stylesheet">
+    <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+    <link href="{% static 'vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+    <link href="{% static 'vendor/remixicon/remixicon.css' %}" rel="stylesheet">
+    <link href="{% static 'vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+
+
+<body>
+
+{% include "navbar.html" %}
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex justify-content-center align-items-center">
+    <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
+      <h1>Your One-Stop Portal<br>for all PUPQC e-Services</h1>
+      <h2>Access all services in one click</h2>
+      <a href="{% url 'service' %}" class="btn-get-started">Go to services</a>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+  
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+  
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+            <img src="{% static 'img/about.jpg' %}" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <h3>A platform dedicated exclusively to the diverse range of services offered by PUPQC.</h3>
+            <p class="fst-italic mt-7">
+              ISKONECT is a collaborative effort between PUPQC administrators, faculty, and BSIT 4th year Students. Our team is dedicated to enhancing your experience within PUPQC by leveraging technology to streamline tasks, facilitate communication, and provide you with the tools you need to succeed academically and professionally. At our core, we are driven by the pursuit of efficiency. Our main objective is simple yet profound:
+            </p>
+            
+            <ul>
+              <li><i class="bi bi-check-circle"></i> Streamline transactions for maximum efficiency.</li>
+              <li><i class="bi bi-check-circle"></i> Put everything you need at your fingertips for easy accessibility.</li>
+              <li><i class="bi bi-check-circle"></i> Ensure everything is well-organized for a seamless experience.</li>
+            </ul>
+            
+            <p>
+              In our journey, every action is a testament to our commitment. We believe in making a meaningful impact, and our dedication echoes through every initiative, ensuring an educational experience that goes beyond the ordinary.
+            </p>
+  
+          </div>
+        </div>
+  
+      </div>
+    </section><!-- End About Section -->
+  
+  
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts section-bg">
+      <div class="container">
+  
+        <div class="row counters mb-6">
+  
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="8000" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Students</p>
+          </div>
+  
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="14" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Programs</p>
+          </div>
+  
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="30" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Events</p>
+          </div>
+  
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="103" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Faculty</p>
+          </div>
+  
+        </div>
+  
+      </div>
+
+    </section><!-- End Counts Section -->
+    <!-- ======= Features Section ======= -->
+
+    <div class="mb-6">
+      <p>   </p>
+    </div>
+    
+    <section id="features" class="features mt-6">
+      <div class="container mb-6" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Overview</h2>
+          <p>Services</p>
+        </div>
+
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-3 col-md-4">
+            <a href="https://your-link-1.com" target="_blank" class="icon-box">
+                <i class="ri-store-line" style="color: #800000;"></i>
+                <h3>Student Help Desk (CRM)</h3>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+            <a href="https://your-link-2.com" target="_blank" class="icon-box">
+                <i class="ri-bar-chart-box-line" style="color: #800000;"></i>
+                <h3>Student Conduct and Discipline System</h3>
+            </a>
+        </div>
+        
+        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+            <a href="https://your-link-3.com" target="_blank" class="icon-box">
+                <i class="ri-calendar-todo-line" style="color: #800000;"></i>
+                <h3>Scheduler</h3>
+            </a>
+        </div>   
+
+        <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+          <a href="https://student-performance-70l3.onrender.com/" target="_blank" class="icon-box">
+              <i class="ri-paint-brush-line" style="color: #800000;"></i>
+              <h3>Student Performance System</h3>
+          </a>
+        </div>
+      
+        <div class="col-lg-3 col-md-4 mt-4">
+            <a href="https://your-link-4.com" target="_blank" class="icon-box">
+                <i class="ri-database-2-line" style="color: #800000;"></i>
+                <h3>Faculty Performance System</h3>
+            </a>
+        </div>
+        
+        <div class="col-lg-3 col-md-4 mt-4">
+            <a href="https://your-link-5.com" target="_blank" class="icon-box">
+                <i class="ri-team-line" style="color: #800000;"></i>
+                <h3>Faculty Information System</h3>
+            </a>
+        </div>
+      
+        <div class="col-lg-3 col-md-4 mt-4">
+          <a href="https://your-link-6.com" target="_blank" class="icon-box">
+              <i class="ri-file-list-3-line" style="color: #800000;"></i>
+              <h3>Research Information System</h3>
+          </a>
+        </div>
+      
+        <div class="col-lg-3 col-md-4 mt-4">
+            <a href="https://your-link-7.com" target="_blank" class="icon-box">
+                <i class="ri-price-tag-2-line" style="color: #800000;"></i>
+                <h3>Alumni Performance Management System</h3>
+            </a>
+        </div>
+      
+        <div class="col-lg-3 col-md-4 mt-4">
+            <a href="https://your-link-8.com" target="_blank" class="icon-box">
+                <i class="ri-anchor-line" style="color: #800000;"></i>
+                <h3>Accreditation Information System</h3>
+            </a>
+        </div>
+      
+        <div class="col-lg-3 col-md-4 mt-4">
+            <a href="https://your-link-9.com" target="_blank" class="icon-box">
+                <i class="ri-fingerprint-line" style="color: #800000;"></i>
+                <h3>Student Government and Elections</h3>
+            </a>
+        </div>
+      
+        <div class="col-lg-3 col-md-4 mt-4">
+          <a href="https://your-link-10.com" target="_blank" class="icon-box">
+              <i class="ri-base-station-line" style="color: #800000;"></i>
+              <h3>Student Academic Services System</h3>
+          </a>
+        </div>
+      
+        <div class="col-lg-3 col-md-4 mt-4">
+            <a href="https://your-link-11.com" target="_blank" class="icon-box">
+                <i class="ri-file-word-2-line" style="color: #800000;"></i>
+                <h3>Online Document Request System</h3>
+            </a>
+        </div>
+      
+        <div class="col-lg-3 col-md-4 mt-4">
+            <a href="https://your-link-12.com" target="_blank" class="icon-box">
+                <i class="ri-pie-chart-line" style="color: #800000;"></i>
+                <h3>Executive Information System</h3>
+            </a>
+        </div>
+      
+        <div class="col-lg-3 col-md-4 mt-4">
+          <a href="https://your-link-13.com" target="_blank" class="icon-box">
+              <i class="ri-hourglass-fill" style="color: #800000;"></i>
+              <h3>Faculty Attendance Monitoring System</h3>
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 mt-4">
+          <a href="https://your-link-13.com" target="_blank" class="icon-box">
+              <i class="ri-hourglass-fill" style="color: #800000;"></i>
+              <h3>Extension Services Information System </h3>
+          </a>
+        </div>
+
+      </div>
+    </section><!-- End Features Section -->
+
+    <!-- ======= Why Us Section ======= -->
+    <section id="why-us" class="why-us">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-4 d-flex align-items-stretch">
+            <div class="content">
+              <h3>Faculty Services</h3>
+              <p>
+                This section is dedicated to serving our esteemed faculty members. They can access a range of services to support their academic and professional needs. 
+
+              </p>
+              <div class="text-center">
+                <a href="service_faculty.html" class="more-btn">See all </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-boxes d-flex flex-column justify-content-center">
+              <div class="row">
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <a href="https://pupqc-fps.onrender.com" class="icon-box mt-4 mt-xl-0">
+                    <i class="bx bx-receipt"></i>
+                    <h4>Faculty Performance System</h4>
+                    <p>Allows faculty to track professional development, achievements, and performance evaluations.</p>
+                  </a>
+                </div>
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <a href="https://scheduler-x302.onrender.com/index/" class="icon-box mt-4 mt-xl-0">
+                    <i class="bx bx-cube-alt"></i>
+                    <h4>Scheduler</h4>
+                    <p>Assists faculty in organizing and managing class and faculty schedules efficiently.</p>
+                  </a>
+                </div>
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <a href="https://pupqcfis-com.onrender.com/" class="icon-box mt-4 mt-xl-0">
+                    <i class="bx bx-images"></i>
+                    <h4>Faculty Information System</h4>
+                    <p>Provides faculty with centralized access to relevant information, resources, and administrative details.</p>
+                  </a>
+                </div>
+              </div>              
+            </div><!-- End .content-->
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Why Us Section -->
+
+     <!-- ======= Why Us Section ======= -->
+     <section id="why-us" class="why-us">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-8 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-boxes d-flex flex-column justify-content-center">
+              <div class="row">
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <a href="https://apms-mgba.onrender.com/" class="icon-box mt-4 mt-xl-0">
+                    <i class="bx bx-receipt"></i>
+                    <h4>Alumni Performance Management System</h4>
+                    <p>Manages and highlights alumni achievements, fostering a strong connection with the university.</p>
+                  </a>
+                </div>
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <a href="link-to-help-desk" class="icon-box mt-4 mt-xl-0">
+                    <i class="bx bx-cube-alt"></i>
+                    <h4>Help Desk</h4>
+                    <p>Centralized support hub for students, providing assistance and information for various academic needs.</p>
+                  </a>
+                </div>
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <a href="link-to-student-academic-services-system" class="icon-box mt-4 mt-xl-0">
+                    <i class="bx bx-images"></i>
+                    <h4>Student Academic Services System</h4>
+                    <p>Comprehensive hub for students to access academic services and resources efficiently.</p>
+                  </a>
+                </div>
+              </div>              
+            </div><!-- End .content-->
+          </div>
+          <div class="col-lg-4 d-flex align-items-stretch">
+            <div class="content">
+              <h3>Student Services</h3>
+              <p>
+                Exclusively designed to cater to the diverse needs of our student community. Students can effortlessly access a variety of services crafted to support their academic journey and overall well-being. 
+              </p>
+              <div class="text-center">
+                <a href="about.html" class="more-btn">See all </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Why Us Section -->
+
+    
+
+    <!-- ======= Popular Courses Section ======= -->
+    <section id="popular-courses" class="courses">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Overview</h2>
+          <p>Events</p>
+        </div>
+
+        <section id="courses" class="courses">
+          <div class="container" data-aos="fade-up">
+      
+            <div class="row" data-aos="zoom-in" data-aos-delay="100">
+      
+              <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                <div class="course-item">
+                  <img src="{% static 'img/event7.jpg' %}" class="img-fluid" alt="...">
+                  <div class="course-content mt-3">
+                    <h3><a href="course-details.html">PUPQC in partnership with smart</a></h3>
+                    <p>The whole PUP Quezon City Branch community is grateful to PLDT and SMART Communications for donating these urban gardening kits in support of the Philippines Plan of Action for Nutrition.</p>
+                  
+                  </div>
+                </div>
+              </div> <!-- End Course Item-->
+      
+              <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+                <div class="course-item">
+                  <img src="{% static 'img/event8.jpg' %}" class="img-fluid" alt="...">
+                  <div class="course-content mt-3">
+                    <h3><a href="course-details.html">PUQC 22nd Commencement Exercise</a></h3>
+                    <p>PUP Quezon City Branch 22nd Commencement Exercises with Hon. Joseph Victor Gomez Ejercito, Commencement Speaker.</p>
+                    
+                  </div>
+                </div>
+              </div> <!-- End Course Item-->
+      
+              <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+                <div class="course-item">
+                  <img src="{% static 'img/event12.jpg' %}" class="img-fluid" alt="...">
+                  <div class="course-content mt-3">
+                    <h3><a href="course-details.html">Mental Health Week</a></h3>
+                    <p>Celebrating Mental Health Week on October 16–20, 2023</p>
+                    
+                  </div>
+                </div>
+              </div> <!-- End Course Item-->
+      
+            </div>
+      
+      </div>
+    </section><!-- End Courses Section -->
+
+      <!-- ======= Events Section ======= -->
+      <section id="events" class="events">
+        <div class="container" data-aos="fade-up">
+
+          <div class="section-title">
+            <h2>Overview</h2>
+            <p>Announcement</p>
+          </div>
+  
+          <div class="row">
+            <div class="col-md-4 d-flex align-items-stretch">
+              <div class="card">
+                <div class="card-img">
+                  <img src="{% static 'img/announcement4.jpg' %}" alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title"><a href="">2023 Bar Passer</a></h5>
+                  <p class="card-text"><p class="card-text">Congratulations to Atty. Adrian Galleta, BSIT Batch 2013, and a proud member of the PUPQC Software Research Group (SRG), 1st Generation, for successfully passing the 2023 Bar Examination. </p></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 d-flex align-items-stretch">
+              <div class="card">
+                <div class="card-img">
+                  <img src="{% static 'img/announcement3.jpg' %}" alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title"><a href="">Newly Licensed Professional Teachers</a></h5>
+                  <p class="card-text">PUP Quezon City attained 66.67% for the first time takers and 64.71% overall passing rate which is higher than the National Passing Rate for September 2023 LET exam that is 56.26%.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 d-flex align-items-stretch">
+              <div class="card">
+                <div class="card-img">
+                  <img src="{% static 'img/announcement6.jpg' %}" alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title"><a href="">2023 PUPQC Awards</a></h5>
+                  <p class="card-text">The 2023 PUPQC Awards is now set on Friday, September 8, 2023, from 1:00 pm to 5:00 pm at the Winnie Castelo Welfare Complex, PUP Quezon City Branch.</p>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+  
+        </div>
+      </section><!-- End Events Section -->
+
+  </main><!-- End #main -->
+
+  {% include "footer.html" %}
+
+
+  
+
+  <script src="{% static 'vendor/purecounter/purecounter_vanilla.js' %}"></script>
+  <script src="{% static 'vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'vendor/php-email-form/validate.js' %}"></script>
+  <script src="{% static 'js/main.js' %}"></script>
+
+</body>
+
+</html>

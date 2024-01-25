@@ -1,0 +1,4 @@
+# Remove all venv files
+rm -rf venv
+*venv
+*.pyc
