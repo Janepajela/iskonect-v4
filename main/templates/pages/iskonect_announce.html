@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block iskonect %}
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs" data-aos="fade-in" style="background-color: #800000; color: #ffffff;" >
+        <div class="container ">
+            <h2>Announcement</h2>
+        </div>
+    </div><!-- End Breadcrumbs -->
+
+    <section id="events" class="events">
+        <div class="container" data-aos="fade-up">
+
+            <div class="row">
+                <div class="col-md-4 d-flex align-items-stretch">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="{% static 'img/announcement4.jpg' %}" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="">2023 Bar Passer</a></h5>
+                            <p class="card-text"><p class="card-text">Congratulations to Atty. Adrian Galleta, BSIT Batch 2013, and a proud member of the PUPQC Software Research Group (SRG), 1st Generation, for successfully passing the 2023 Bar Examination. </p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex align-items-stretch">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="{% static 'img/announcement3.jpg' %}" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="">Newly Licensed Professional Teachers</a></h5>
+                            <p class="card-text">PUP Quezon City attained 66.67% for the first time takers and 64.71% overall passing rate which is higher than the National Passing Rate for September 2023 LET exam that is 56.26%.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex align-items-stretch">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="{% static 'img/announcement6.jpg' %}" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="">2023 PUPQC Awards</a></h5>
+                            <p class="card-text">The 2023 PUPQC Awards is now set on Friday, September 8, 2023, from 1:00 pm to 5:00 pm at the Winnie Castelo Welfare Complex, PUP Quezon City Branch.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- End Events Section -->
+{% endblock  %}

@@ -1,0 +1,25 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="{% static 'img/isck_concat-inverted.png' %}">
+    <title>iSKONECT</title>
+
+    {% include 'partials/_css.html' %}
+</head>
+<body>
+    <header id="header" class="fixed-top">
+        {% include 'partials/_topbar.html' %}
+    </header>
+
+    <main id="main">
+        {% block iskonect  %}{% endblock  %}
+    </main>
+
+    {% include 'partials/_footer.html' %}
+
+    {% include 'partials/_js.html' %}
+</body>
+</html>
